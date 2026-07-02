@@ -1,0 +1,12 @@
+{
+  "provider": "openai",
+  "base_url": "https://api.deepseek.com",
+  "api_key_env": "DS_API_KEY",
+  "path": "/v1/chat/completions",
+  "request": {
+    "model": "deepseek-v4-pro",
+    "messages": [{ "role": "user", "content": "who are you" }],
+    "stream": true,
+    "stream_options": { "include_usage": true }
+  }
+}

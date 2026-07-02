@@ -1,0 +1,10 @@
+{
+  "provider": "google",
+  "base_url": "https://generativelanguage.googleapis.com",
+  "api_key_env": "GOOGLE_API_KEY",
+  "model": "gemini-2.5-flash",
+  "path": "/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse",
+  "request": {
+    "contents": [{ "role": "user", "parts": [{ "text": "who are you" }] }]
+  }
+}

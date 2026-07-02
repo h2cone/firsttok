@@ -1,0 +1,7 @@
+docs/
+# build output
+/firsttok
+/firsttok.exe
+# run output
+/ttft_runs/
+**/ttft_runs/
